@@ -16,8 +16,8 @@ The project highlights how **operating system concepts such as process creation 
 
 # 📂 Sections of Work
 Problem Statement:
-Solve a system of 3 linear equations:
-A * X = B
+.Solve a system of 3 linear equations:
+.A * X = B
 Where:
 A = 3×3 coefficient matrix
 B = constants vector
