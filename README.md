@@ -1,6 +1,8 @@
 Project Title
 
+
 Multithreaded Solution of Linear Equations using Cramer's Rule
+
 
 Description
 
@@ -9,6 +11,7 @@ This project solves a system of three linear equations using Cramer's Rule in th
 Each child process calculates the determinant of a modified matrix and determines the value of a specific variable. This demonstrates parallel execution and process management in Linux/Unix systems.
 
 The project highlights is how operating system concepts such as process creation and synchronization can be applied to solve mathematical problems efficiently.
+
 
 📂 Sections of Work
 Problem Statement
@@ -23,6 +26,7 @@ Xi = Di / D
 Where:
 D = determinant of matrix A
 Di = determinant of matrix A after replacing column i with vector B
+
 
 ⚙️ Program Workflow
 Take input of:
@@ -51,6 +55,7 @@ Each child process independently computes its assigned variable.
 Note:
 The order of output may vary because child processes execute concurrently.
 
+
 🧠 Concepts Demonstrated
 
 Cramer's Rule for solving linear equations
@@ -59,6 +64,7 @@ Process creation using fork()
 Parent-child process relationship
 Process synchronization using wait()
 Parallel computation in C
+
 
 
 👨‍💻 Author
