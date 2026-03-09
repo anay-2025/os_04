@@ -1,3 +1,4 @@
+
 # Project Title
 
 **Multithreaded Solution of Linear Equations using Cramer's Rule**
@@ -15,49 +16,38 @@ The project highlights how **operating system concepts such as process creation 
 ---
 
 # 📂 Sections of Work
-Problem Statement:
-.Solve a system of 3 linear equations:
-.A * X = B
-Where:
-A = 3×3 coefficient matrix
-B = constants vector
-X = solution vector [x1, x2, x3]
-Using Cramer's Rule:
-Xi = Di / D
-Where:
-D = determinant of matrix A
-Di = determinant of matrix A after replacing column i with vector B
+
+The following components were implemented independently:
+
+* Writing the **complete C program**
+* Implementing the **determinant calculation function**
+* Implementing the **column replacement logic**
+* Creating and managing **child processes using `fork()`**
+* Handling **process synchronization using `wait()`**
+* Testing the program with different **matrix inputs**
+* Debugging and verifying program correctness
 
 ---
 
 # ⚙️ Program Workflow
-Take input of:
-Coefficient matrix A (3×3)
-Constant vector B (3×1)
-Compute determinant D of matrix A.
-If D = 0
-The system has no unique solution.
-If D ≠ 0
-Create 3 child processes using fork().
-Each child:
-Replaces one column of matrix A with vector B
-Computes determinant Di
-Calculates solution Xi = Di / D
-Prints the result.
-Parent process waits for all child processes using wait().
-Process Structure
-Parent Process
 
-├── Child Process 1 → Calculates X1
-├── Child Process 2 → Calculates X2
-└── Child Process 3 → Calculates X3
+1. The user enters a **3×3 coefficient matrix**.
+2. The user enters the **constants vector**.
+3. The program computes the **determinant of matrix A (D)**.
+4. If `D = 0`, the system does not have a unique solution.
+5. The program creates **three child processes**.
+6. Each child process:
 
-Each child process independently computes its assigned variable.
+   * Replaces one column of matrix **A** with vector **B**
+   * Computes the determinant of the new matrix (**Di**)
+   * Calculates the solution **Xi = Di / D**
+7. The parent process waits until all children finish execution
+
 
 Note:
-The order of output may vary because child processes execute concurrently.
-   ---
+The order of output may vary because **child processes execute concurrently**.
 
+---
 
 # 🧠 Concepts Demonstrated
 
@@ -67,6 +57,8 @@ The order of output may vary because child processes execute concurrently.
 * Parent-child process relationship
 * Process synchronization using `wait()`
 * Parallel computation in C
+
+---
 
 ---
 
@@ -80,5 +72,3 @@ The order of output may vary because child processes execute concurrently.
 7.Sruthi
 8.Anay Bhattacharya
 9.Dhrub Shah
-
-
