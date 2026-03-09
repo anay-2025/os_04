@@ -21,7 +21,7 @@ performance on multi-core systems.
 - Final C implementation of determinant and Cramer's rule  
 - Compilation and execution in Linux / WSL  
 - Random matrix generation using `srand()` and `random()`  
-- Output generation in text files (`equation.txt`, `solution.txt`)  
+- Output generation in text files. 
 - Testing with different values of `n`  
 - Performance observation for different process counts  
 
