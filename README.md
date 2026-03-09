@@ -63,9 +63,9 @@ The order of output may vary because **child processes execute concurrently**.
 ---
 
 # 👨‍💻 Author
-1.Bharath Reddy
-2.Aman Das
-3.Samam Roy
+1.Bharath Reddy                                                                                                                           
+2.Aman Das                                                                                                                                
+3.Samam Roy                                                                                                                               
 4.Saumya Kumari
 5.Rinika Banerjee
 6.Padelna Bhutiya
