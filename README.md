@@ -69,6 +69,6 @@ The order of output may vary because **child processes execute concurrently**.
 4.Saumya Kumari                                                                                                                           
 5.Rinika Banerjee                                                                                                                         
 6.Padelna Bhutiya                                                                                                                         
-7.Sruthi                                                                                                                                  
+7.Vaddadhi Sruthi                                                                                                                                  
 8.Anay Bhattacharya (Group Leader)                                                                                                                      
 9.Dhrub Shah                                                                                                                              
